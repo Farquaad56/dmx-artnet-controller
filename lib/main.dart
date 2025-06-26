@@ -16,7 +16,7 @@ class ArnetControlApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'DMX ArtNet Controler',
+      title: 'CGR Lanester DMX/Art-Net Controller',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,
@@ -444,7 +444,7 @@ class _ArnetControlHomeState extends State<ArnetControlHome> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ARNET DMX Control'),
+        title: const Text('CGR Lanester DMX Controller'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
           IconButton(

@@ -1,4 +1,4 @@
-name: arnet_controller
+name: cgr_dmx
 description: Logiciel de contrôle ARNET pour projecteurs DMX
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
